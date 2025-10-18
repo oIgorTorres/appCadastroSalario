@@ -47,18 +47,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/rgOpcoes"
         android:layout_width="296dp"
         android:layout_height="61dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        tools:layout_editor_absoluteX="20dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
 
         <RadioButton
             android:id="@+id/radioMasculino"
             android:layout_width="149dp"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Masculino" />
 
         <RadioButton
@@ -92,7 +94,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/rgOpcoes" />
 
     <EditText
         android:id="@+id/edtFilhos"
@@ -109,7 +111,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -120,16 +122,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtFilhos" />
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/txtResp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:text="Novo cálculo"
+        android:layout_marginTop="30dp"
+        android:text="Resultado"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
