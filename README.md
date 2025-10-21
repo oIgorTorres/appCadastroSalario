@@ -58,7 +58,7 @@ app/
 ## 🧰 Estrutura XML 1 - Tela Inicial
 
 O layout inicial (`activity_main.xml`) contém:
-- 2 botões (um para logar e outro para registrar usuário)
+- 2 botões (um para ir para a tela de cadastro e outro para ir para tela de login)
 - 1 TextView
 
 
@@ -73,10 +73,10 @@ O layout inicial (`activity_main.xml`) contém:
 
 ## 🧰 Estrutura XML 2 - Tela Cadastro
 
-O layout inicial (`activity_registrar.xml`) contém:
-- 2 botões (um para registrar e outro para retornar)
+O layout inicial (`activity_cadastro.xml`) contém:
+- 2 botões (Um para registrar usuário e o outro para retornar)
 - 1 TextView
-- 4 Plain Text (um para o usuário inserir seu nome, email, senha e confirmar senha)
+- 3 Plain Text (um para o usuário inserir seu nome, email e senha)
 
 
 
@@ -107,9 +107,12 @@ O layout inicial (`activity_login.xml`) contém:
 
 ## 🧰 Estrutura XML 4 - Tela Principal
 
-O layout inicial (`activity_telaprincipal.xml`) contém:
-- 1 botão (para retornar)
-- 1 TextView
+O layout inicial (`activity_principal.xml`) contém:
+- 2 TextView
+- 2 Plain Text (Para inserir o salário bruto e o número de filhos)
+- 1 RadioGroup
+- 2 RadioButton (Para masculino e feminino)
+- 1 Button (Para calcular)
 
 
 
@@ -117,7 +120,7 @@ O layout inicial (`activity_telaprincipal.xml`) contém:
 
 ### Tela principal
 
-![Figura 1: Exemplo da tela registro do aplicativo](/img/img4.png)
+![Figura 1:](/img/img4.png)
 
 ---
 
