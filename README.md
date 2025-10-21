@@ -75,7 +75,7 @@ O layout inicial (`activity_main.xml`) contém:
 
 O layout inicial (`activity_cadastro.xml`) contém:
 - 2 botões (Um para registrar usuário e o outro para retornar)
-- 1 TextView
+- 4 TextView
 - 3 Plain Text (um para o usuário inserir seu nome, email e senha)
 
 
@@ -92,7 +92,7 @@ O layout inicial (`activity_cadastro.xml`) contém:
 
 O layout inicial (`activity_login.xml`) contém:
 - 2 botões (um para logar e outro para retornar)
-- 1 TextView
+- 3 TextView
 - 2 Plain Text (um para o usuário inserir seu email e senha)
 
 
@@ -108,7 +108,7 @@ O layout inicial (`activity_login.xml`) contém:
 ## 🧰 Estrutura XML 4 - Tela Principal
 
 O layout inicial (`activity_principal.xml`) contém:
-- 2 TextView
+- 5 TextView
 - 2 Plain Text (Para inserir o salário bruto e o número de filhos)
 - 1 RadioGroup
 - 2 RadioButton (Para masculino e feminino)
