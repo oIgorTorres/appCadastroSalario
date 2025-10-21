@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/back5">
 
     <TextView
         android:id="@+id/textView9"
@@ -13,6 +14,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
         android:text="Calcular salário"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +30,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
         android:text="Salário bruto"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,11 +39,12 @@
 
     <EditText
         android:id="@+id/edtSalarioBruto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Insira seu salário bruto"
         android:inputType="text"
@@ -61,13 +67,15 @@
             android:layout_width="149dp"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Masculino" />
+            android:text="Masculino"
+            android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioFeminino"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
-            android:text="Feminino" />
+            android:text="Feminino"
+            android:textColor="@color/white" />
     </RadioGroup>
 
     <TextView
@@ -78,6 +86,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:text="Sexo"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,6 +101,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:text="Número de filhos"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,11 +110,12 @@
 
     <EditText
         android:id="@+id/edtFilhos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Insira seu número de filhos"
         android:inputType="number"
@@ -129,6 +142,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:text="Resultado"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
